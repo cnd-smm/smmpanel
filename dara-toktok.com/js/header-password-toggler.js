@@ -27,17 +27,17 @@ function passwordShowHide(target, items) {
 // Toggle Theme Mode
 
 function toggleThemeMode() {
-  const pakmainsmmCurrentMode = localStorage.getItem("pakmainsmmCurrentMode");
+  const pechchheanCurrentMode = localStorage.getItem("pechchheanCurrentMode");
   const bodyFire = document.getElementById("body");
   const currentTheme = document.documentElement.getAttribute('data-bs-theme');
 
-  if (pakmainsmmCurrentMode) {
-    localStorage.removeItem("pakmainsmmCurrentMode");
+  if (pechchheanCurrentMode) {
+    localStorage.removeItem("pechchheanCurrentMode");
     bodyFire.classList.remove("daymode");
     document.documentElement.setAttribute('data-bs-theme', 'dark');
 
   } else {
-    localStorage.setItem("pakmainsmmCurrentMode", "daymode");
+    localStorage.setItem("pechchheanCurrentMode", "daymode");
     document.documentElement.setAttribute('data-bs-theme', 'light');
     bodyFire.classList.add("daymode");
   }
