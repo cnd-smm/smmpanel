@@ -1,0 +1,1 @@
+const verifiedIds = ['0', '0'];
